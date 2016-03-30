@@ -1,0 +1,19 @@
+.heading {
+  font-size: 45px;
+  margin-bottom: 16px;
+}
+
+body {
+  padding: 70px;
+}
+#name {
+  font-size: 101px;
+}
+.coolFont {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.sm-icon {
+  height: 50%;
+  width: auto;
+}

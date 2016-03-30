@@ -1,26 +1,17 @@
 <html>
   <head>
+    <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300' rel='stylesheet' type='text/css'>
-    <style>
-      body {
-        padding: 70px;
-      }
-      #name {
-        font-size: 120px;
-      }
-      .coolFont {
-        font-family: 'Yanone Kaffeesatz', sans-serif;
-      }
-
-    </style>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   </head>
   <body>
     <nav class="navbar navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">BenHagan.me</a>
+          <a class="navbar-brand" href="#"></a>
         </div>
         <ul class="navbar-nav nav pull-right">
           <li><a href="#aboutme">About</a></li>
@@ -42,10 +33,47 @@
           <h1 id="name"></h1>
         </div>
         <div class="col-md-8">
-          <h1 class="coolFont">About Me</h1>
+          <a name="aboutme"></a>
+          <h1 class="coolFont heading">About Me</h1>
           <p class="lead">
             I am an aspiring full stack web developer looking to make my mark on the world one ; at a time.
           </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <h1 id="name"></h1>
+        </div>
+        <div class="col-md-8">
+          <a name="mywork"></a>
+          <h1 class="coolFont heading">Work</h1>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="thumbnail">
+                <img src="https://www.dropbox.com/s/rgf7nr61lcx6to5/lewis.png?raw=1" class="img-responsive" alt="Thumbnail of CS Lewis tribute project" />
+                <div class="caption">
+                  <h4>CS Lewis Tribute</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-xs-5">
+          <h1 id="name"></h1>
+        </div>
+        <div class="col-md-8">
+          <a name="contact"></a>
+          <h1 class="coolFont heading">Contact</h1>
+          <div class="row">
+              <a target="_blank" class="col-md-3 col-xs-4" href="https://github.com/BenHagan">
+                <img class="img-responsive" src="https://www.dropbox.com/s/49r0ol1k7aemkn2/github-10-256.png?raw=1" alt="Octocat" />
+              </a>
+              <a target="_blank" class="col-md-3 col-xs-4" href="https://www.linkedin.com/in/ben-hagan-06838a13">
+                <img class="img-responsive" src="https://www.dropbox.com/s/d9fo6yjf0yll5jm/linkedin-5-256.png?raw=1" alt="LinkedIn Icon" />
+              </a>
+          </div>
         </div>
       </div>
     </div>
